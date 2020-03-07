@@ -1,7 +1,19 @@
 // Tiff rotate Win.cpp : This file contains the 'main' function. Program execution begins and ends there.
-//
+// Petr Buben
 
 #include <iostream>
+
+#include "opencv2/core/mat.hpp"
+#include "opencv2/core/core.hpp"
+#include "opencv2/highgui/highgui.hpp"
+
+#include "opencv2/imgproc/imgproc.hpp"
+#include "opencv2/imgcodecs.hpp"
+
+using namespace cv;
+using namespace std;
+
+
 extern  "C" {
 #include "tiffvers.h"
 }
@@ -15,25 +27,25 @@ extern  "C" {
 #include "tiffio.h"
 }
 
-using namespace std;
-
 
 int main()
 {
 	string imageName("Qres_K.tif");
 
-	//TIFF* tif = TIFFOpen("Qres_K.tif", "ro");
+//	TIFF* tif = TIFFOpen("Qres_K.tif", "r");
+
 	TIFF* tif = TIFFOpen(imageName.c_str(), "r");
 
+	
 	if (!tif) {
-		cout << "could not open\n";
+		cout << "could not open tiffopen\n";
 		return 1;
 	}
 	
 	// Create a matrix to hold the tif image in
-	/*
+	
 	Mat image;
-
+		
 	// check the tif is open
 	if (tif) {
 		do {
@@ -85,7 +97,7 @@ int main()
 		} while (TIFFReadDirectory(tif)); // get the next tif
 		TIFFClose(tif); // close the tif file
 	}
-	*/
+	
 	return 0;
 }
 

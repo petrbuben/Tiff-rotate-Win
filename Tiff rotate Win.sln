@@ -15,12 +15,12 @@ Global
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{30D2D872-D83A-4E07-9F7D-D6647E167E7A}.Debug|x64.ActiveCfg = Debug|x64
 		{30D2D872-D83A-4E07-9F7D-D6647E167E7A}.Debug|x64.Build.0 = Debug|x64
-		{30D2D872-D83A-4E07-9F7D-D6647E167E7A}.Debug|x86.ActiveCfg = Debug|Win32
-		{30D2D872-D83A-4E07-9F7D-D6647E167E7A}.Debug|x86.Build.0 = Debug|Win32
+		{30D2D872-D83A-4E07-9F7D-D6647E167E7A}.Debug|x86.ActiveCfg = Debug|x64
+		{30D2D872-D83A-4E07-9F7D-D6647E167E7A}.Debug|x86.Build.0 = Debug|x64
 		{30D2D872-D83A-4E07-9F7D-D6647E167E7A}.Release|x64.ActiveCfg = Release|x64
 		{30D2D872-D83A-4E07-9F7D-D6647E167E7A}.Release|x64.Build.0 = Release|x64
-		{30D2D872-D83A-4E07-9F7D-D6647E167E7A}.Release|x86.ActiveCfg = Release|Win32
-		{30D2D872-D83A-4E07-9F7D-D6647E167E7A}.Release|x86.Build.0 = Release|Win32
+		{30D2D872-D83A-4E07-9F7D-D6647E167E7A}.Release|x86.ActiveCfg = Debug|x64
+		{30D2D872-D83A-4E07-9F7D-D6647E167E7A}.Release|x86.Build.0 = Debug|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
